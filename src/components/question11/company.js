@@ -7,15 +7,12 @@ export default class Company extends React.Component {
    return this.props.name
   }
 
-  getName() {
-    const x = this.props.employees[0]
-    console.log(x)
-  }
 
   render() {
+    const people  = _.map(this.props.employees, (employee)  => <Person person = {employee} />)
     return (<div>
       <p>Company: {this.getCompany()}</p>
-      <Person />
+      {people}
     </div>)
   }
 }
