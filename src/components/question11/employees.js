@@ -1,13 +1,13 @@
 import React from 'react'
 
-export default class Person extends React.Component {
+export default class Employees extends React.Component {
 
   getName() {
-    return this.props.person.name
+    return this.props.employees.name
   }
 
   getAge() {
-    return this.props.person.age
+    return this.props.employees.age
   }
 
   render() {
