@@ -1,5 +1,7 @@
 import React from 'react'
+import _ from 'lodash'
 import Person from '../question10/person.js'
+
 
 export default class Company extends React.Component {
 

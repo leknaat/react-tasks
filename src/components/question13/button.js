@@ -2,13 +2,13 @@ import React from 'react'
 
 export default class Button extends React.Component {
 
- handleClick(e) {
-    e.preventDefault();
+  handleClick(e) {
+    e.preventDefault()
     console.log('Hello')
   }
 
 
-  render(){
+  render() {
     return (<button onClick={this.handleClick.bind(this)}>click me and check the console</button>)
   }
 }
