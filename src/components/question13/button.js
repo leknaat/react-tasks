@@ -9,6 +9,6 @@ export default class Button extends React.Component {
 
 
   render() {
-    return (<button onClick={this.handleClick.bind(this)}>click me and check the console</button>)
+    return (<button onClick={this.handleClick.bind()}>click me and check the console</button>)
   }
 }

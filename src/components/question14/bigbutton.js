@@ -1,14 +1,13 @@
 import React from 'react'
 
-export default class Button extends React.Component {
+export default class BigButton extends React.Component {
 
   handleClick(e) {
     e.preventDefault()
-    console.log(this.handleClick.bind(this))
+    console.log(this.props.onPress())
   }
 
-
   render() {
-    return (<button>Press me!</button>)
+    return (<button onClick = {this.handleClick.bind(this)}>{this.props.children}</button>)
   }
 }
