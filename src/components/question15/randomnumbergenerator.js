@@ -15,7 +15,6 @@ export default class RandomNumberGenerator extends Component {
   render() {
     return (
       <div>
-        {console.log(this.state)}
         <p>{this.state.number}</p>
         <button onClick={() => this.setState({ number: this.randomNumber() })}>Generate</button>
       </div>
