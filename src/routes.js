@@ -16,6 +16,7 @@ import Question12 from './components/question12'
 import Question13 from './components/question13'
 import Question14 from './components/question14'
 import Question15 from './components/question15'
+import Question16 from './components/question16'
 
 export const routes = [
   { path: 'question1', component: Question1 },
@@ -33,6 +34,7 @@ export const routes = [
   { path: 'question13', component: Question13 },
   { path: 'question14', component: Question14 },
   { path: 'question15', component: Question15 },
+  { path: 'question16', component: Question16 },
 ]
 
 export default {
